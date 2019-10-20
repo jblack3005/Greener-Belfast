@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Greener Belfast</title>
+
+
+		<meta name="Author" content="Greener Belfast" />
+		<meta name="Description" content="Trash Cleanup" />
+		<meta name="Keywords" content="beach, beach cleanup, rubbish, trash cleanup, trash" />
+		
+		<link rel = "stylesheet" type = "text/css" href = "NASA.css"/>
+        
+        <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+        
+
+	</head>
+	<body>
+        
+        <header>
+        
+
+            <nav>
+                
+                <img class = "logo" alt = "logo" src = "logo.png">
+            
+            <div class = "menu">
+            <ul>
+                <li class = "active"><a href = "index.php"> About Us </a></li>
+                <li><a href = "events.html"> Events </a></li>
+                <li><a href = "photos.html"> Photo Share </a></li>
+                <li><a href = "contact.html"> Contact </a></li>
+                <li><a href = "account.html"> Account </a></li>
+  
+            </ul>
+            </div>
+            </nav>
+            
+            <h3>Greener Belfast <br> Make The Oceans Great Again</h3>
+            <h1> 60% of Northern Irish coasts are polluted </h1>
+            <h2> Lets Change That!</h2>
+            
+        </header>
+
+        <div class = "facts" id = "facts">
+            <h4> Ocean Facts </h4>
+            <div class="fact">
+                <img style = "width: 50%" alt= "img1" src = "facts.jpg">
+            </div>
+        </div>
+        
+        
+        
+        <div class = "who" id = "who">
+            <h4> Who Are We? </h4>
+            <div class="row">
+                <div class="column">
+                    <figure>
+                    <img style = "width: 300px" style="height:300px" alt= "img1" src = "rubbish1.jpg">
+                    <figcaption><br>We are a 4-person group from Belfast working to help remove plastics from our oceans</figcaption>
+                    </figure>
+                </div>
+                <div class="column">
+                    <img style = "width: 300px" style="height:300px" alt= "img2" src = "rubbish2.jpg">
+                </div>
+                <div class="column">
+                    <figure>
+                    <img style = "width: 300px" style="height:300px" alt= "img3" src = "rubbish3.jpg">
+                    <figcaption><br>Through the power of social networking, we aim to create a platform for people around the world to fight ocean pollution in any way they can</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        
+        <div class = "how" id = "how">
+            <h4> How We Work</h4>
+            <div class = "list" id="list">
+                
+                <p>Step 1. Make an account with us!</p><br>
+                <p><br>Step 2. Check out the clean-up events that are running in your area</p><br>
+                <p><br>Step 3. Sign up to an event or start one of your own</p>
+            </div>
+        </div>
+
+        
+        
+        
+        <script>
+            
+            $(window).on("scroll", function() {
+                if($(window).scrollTop()) {
+                    $('nav').addClass('black');
+                }
+            
+                else {
+                    $('nav').removeClass('black');
+                }     
+            })
+        
+        </script>
+        
+        
+		
+
+	</body>
+</html>

@@ -1,0 +1,443 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "apercu", sans-serif;
+}
+
+header
+{
+    background-image: url(cover.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-head
+{
+    background-image: url(top-head.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-head2
+{
+    background-image: url(top-head2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-head3
+{
+    background-image: url(top-head3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-head4
+{
+    background-image: url(top-head4.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+nav
+{
+    position: fixed;
+    line-height: 60px;
+    width: 100%;
+}
+
+nav ul
+{
+    float: right;
+    margin: 5px;
+    padding-right: 50px;
+    list-style: none;
+}
+
+nav ul li
+{
+    display: inline-block;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 20px;
+}
+
+nav ul li.active a
+{
+    border: 1px solid white;
+}
+
+nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.logo
+{
+    height: 48px;
+    float: left;
+    margin: 16px 48px;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    color: antiquewhite;
+}
+
+h2
+{
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+    color: white;  
+}
+
+h3
+{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 50px;
+    color: white;
+}
+
+h4
+{
+    font-size: 80px;
+    text-transform:capitalize;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    color: black;
+}
+
+h5
+{
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 300px;
+    color: white;
+}
+
+h6
+{
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+ol
+{
+    font-size: 20px;
+    padding-left: 560px;
+    padding-top: 10px;
+    color: black; 
+}
+
+.description
+{
+    width: 80%;
+    margin: 50px auto;
+    
+}
+
+nav.black
+{
+    background: #000;
+    
+}
+
+.facts
+{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.who
+{
+    background-color: #f4f7f6;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.how
+{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.events
+{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.event1
+{
+    background-color: #f4f7f6;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.event2
+{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.event3
+{
+    background-color: #f4f7f6;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.photo-slide
+{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.photo-share
+{
+    background-color: #f4f7f6;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.event-own
+{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.contact
+{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.account
+{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.row
+{
+    display: flex;
+}
+
+.column
+{
+    flex: 33.3%;
+    padding: 10px;
+    margin-top: 150px;
+}
+
+.figcaption
+{
+    display: block;
+}
+
+figure
+{
+    font-size: 30px;
+    
+}
+
+.fact
+{
+    padding-left: 650px;
+    padding-top: 50px;
+}
+
+.list
+{
+    padding-left: 200px;
+    padding-top: 200px;
+    font-size: 35px;
+}
+
+.img-how
+{
+    display: block;
+    padding-left: 75px;
+    width: 25%;
+    height: 25%;
+}
+
+.beach1
+{
+    float: right;
+    padding-right: 100px;
+}
+
+
+.beach-event
+{
+    margin-left: 300px;
+    margin-top: 100px;
+    font-size: 30px;     
+}
+
+
+
+.button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 500px;
+    margin-top: 150px;
+}
+
+.contact-details
+{
+    padding-left: 200px;
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+.slider
+{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    overflow-x: auto;
+    padding-left: 400px;
+}
+
+.slide
+{
+    width: 600px;
+    flex-shrink: 0;
+    height: 100%;
+}
+
+input[type=text], select, textarea
+{
+    width: 30%;
+    height: 30%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+}
+
+input[type=submit]
+{
+    background-color: forestgreen;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 10%;
+    margin-left: 120px;
+}
+
+.event-form
+{
+    padding-top: 80px;
+    padding-left: 650px;
+    font-size: 25px;
+}
+
+.label-form
+{
+    padding-right: 40px;
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
